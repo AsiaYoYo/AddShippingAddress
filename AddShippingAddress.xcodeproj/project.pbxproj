@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62AB9ED92653F136005E669F /* AddShippingAddressApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB9ED82653F136005E669F /* AddShippingAddressApp.swift */; };
+		62AB9EDB2653F136005E669F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB9EDA2653F136005E669F /* ContentView.swift */; };
+		62AB9EDD2653F138005E669F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62AB9EDC2653F138005E669F /* Assets.xcassets */; };
+		62AB9EE02653F138005E669F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62AB9EDF2653F138005E669F /* Preview Assets.xcassets */; };
+		62AB9EEB2653F138005E669F /* AddShippingAddressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB9EEA2653F138005E669F /* AddShippingAddressTests.swift */; };
+		62AB9EF62653F138005E669F /* AddShippingAddressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB9EF52653F138005E669F /* AddShippingAddressUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62AB9EE72653F138005E669F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62AB9ECD2653F136005E669F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62AB9ED42653F136005E669F;
+			remoteInfo = AddShippingAddress;
+		};
+		62AB9EF22653F138005E669F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62AB9ECD2653F136005E669F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62AB9ED42653F136005E669F;
+			remoteInfo = AddShippingAddress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62AB9ED52653F136005E669F /* AddShippingAddress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddShippingAddress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62AB9ED82653F136005E669F /* AddShippingAddressApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddShippingAddressApp.swift; sourceTree = "<group>"; };
+		62AB9EDA2653F136005E669F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		62AB9EDC2653F138005E669F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62AB9EDF2653F138005E669F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		62AB9EE12653F138005E669F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62AB9EE62653F138005E669F /* AddShippingAddressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddShippingAddressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62AB9EEA2653F138005E669F /* AddShippingAddressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddShippingAddressTests.swift; sourceTree = "<group>"; };
+		62AB9EEC2653F138005E669F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62AB9EF12653F138005E669F /* AddShippingAddressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddShippingAddressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62AB9EF52653F138005E669F /* AddShippingAddressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddShippingAddressUITests.swift; sourceTree = "<group>"; };
+		62AB9EF72653F138005E669F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62AB9ED22653F136005E669F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AB9EE32653F138005E669F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AB9EEE2653F138005E669F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62AB9ECC2653F136005E669F = {
+			isa = PBXGroup;
+			children = (
+				62AB9ED72653F136005E669F /* AddShippingAddress */,
+				62AB9EE92653F138005E669F /* AddShippingAddressTests */,
+				62AB9EF42653F138005E669F /* AddShippingAddressUITests */,
+				62AB9ED62653F136005E669F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62AB9ED62653F136005E669F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62AB9ED52653F136005E669F /* AddShippingAddress.app */,
+				62AB9EE62653F138005E669F /* AddShippingAddressTests.xctest */,
+				62AB9EF12653F138005E669F /* AddShippingAddressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62AB9ED72653F136005E669F /* AddShippingAddress */ = {
+			isa = PBXGroup;
+			children = (
+				62AB9ED82653F136005E669F /* AddShippingAddressApp.swift */,
+				62AB9EDA2653F136005E669F /* ContentView.swift */,
+				62AB9EDC2653F138005E669F /* Assets.xcassets */,
+				62AB9EE12653F138005E669F /* Info.plist */,
+				62AB9EDE2653F138005E669F /* Preview Content */,
+			);
+			path = AddShippingAddress;
+			sourceTree = "<group>";
+		};
+		62AB9EDE2653F138005E669F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				62AB9EDF2653F138005E669F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		62AB9EE92653F138005E669F /* AddShippingAddressTests */ = {
+			isa = PBXGroup;
+			children = (
+				62AB9EEA2653F138005E669F /* AddShippingAddressTests.swift */,
+				62AB9EEC2653F138005E669F /* Info.plist */,
+			);
+			path = AddShippingAddressTests;
+			sourceTree = "<group>";
+		};
+		62AB9EF42653F138005E669F /* AddShippingAddressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62AB9EF52653F138005E669F /* AddShippingAddressUITests.swift */,
+				62AB9EF72653F138005E669F /* Info.plist */,
+			);
+			path = AddShippingAddressUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62AB9ED42653F136005E669F /* AddShippingAddress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62AB9EFA2653F138005E669F /* Build configuration list for PBXNativeTarget "AddShippingAddress" */;
+			buildPhases = (
+				62AB9ED12653F136005E669F /* Sources */,
+				62AB9ED22653F136005E669F /* Frameworks */,
+				62AB9ED32653F136005E669F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddShippingAddress;
+			productName = AddShippingAddress;
+			productReference = 62AB9ED52653F136005E669F /* AddShippingAddress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62AB9EE52653F138005E669F /* AddShippingAddressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62AB9EFD2653F138005E669F /* Build configuration list for PBXNativeTarget "AddShippingAddressTests" */;
+			buildPhases = (
+				62AB9EE22653F138005E669F /* Sources */,
+				62AB9EE32653F138005E669F /* Frameworks */,
+				62AB9EE42653F138005E669F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62AB9EE82653F138005E669F /* PBXTargetDependency */,
+			);
+			name = AddShippingAddressTests;
+			productName = AddShippingAddressTests;
+			productReference = 62AB9EE62653F138005E669F /* AddShippingAddressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62AB9EF02653F138005E669F /* AddShippingAddressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62AB9F002653F138005E669F /* Build configuration list for PBXNativeTarget "AddShippingAddressUITests" */;
+			buildPhases = (
+				62AB9EED2653F138005E669F /* Sources */,
+				62AB9EEE2653F138005E669F /* Frameworks */,
+				62AB9EEF2653F138005E669F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62AB9EF32653F138005E669F /* PBXTargetDependency */,
+			);
+			name = AddShippingAddressUITests;
+			productName = AddShippingAddressUITests;
+			productReference = 62AB9EF12653F138005E669F /* AddShippingAddressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62AB9ECD2653F136005E669F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					62AB9ED42653F136005E669F = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					62AB9EE52653F138005E669F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 62AB9ED42653F136005E669F;
+					};
+					62AB9EF02653F138005E669F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 62AB9ED42653F136005E669F;
+					};
+				};
+			};
+			buildConfigurationList = 62AB9ED02653F136005E669F /* Build configuration list for PBXProject "AddShippingAddress" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62AB9ECC2653F136005E669F;
+			productRefGroup = 62AB9ED62653F136005E669F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62AB9ED42653F136005E669F /* AddShippingAddress */,
+				62AB9EE52653F138005E669F /* AddShippingAddressTests */,
+				62AB9EF02653F138005E669F /* AddShippingAddressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62AB9ED32653F136005E669F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62AB9EE02653F138005E669F /* Preview Assets.xcassets in Resources */,
+				62AB9EDD2653F138005E669F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AB9EE42653F138005E669F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AB9EEF2653F138005E669F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62AB9ED12653F136005E669F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62AB9EDB2653F136005E669F /* ContentView.swift in Sources */,
+				62AB9ED92653F136005E669F /* AddShippingAddressApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AB9EE22653F138005E669F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62AB9EEB2653F138005E669F /* AddShippingAddressTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AB9EED2653F138005E669F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62AB9EF62653F138005E669F /* AddShippingAddressUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62AB9EE82653F138005E669F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62AB9ED42653F136005E669F /* AddShippingAddress */;
+			targetProxy = 62AB9EE72653F138005E669F /* PBXContainerItemProxy */;
+		};
+		62AB9EF32653F138005E669F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62AB9ED42653F136005E669F /* AddShippingAddress */;
+			targetProxy = 62AB9EF22653F138005E669F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		62AB9EF82653F138005E669F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62AB9EF92653F138005E669F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62AB9EFB2653F138005E669F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AddShippingAddress/Preview Content\"";
+				DEVELOPMENT_TEAM = 394S94H2LS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AddShippingAddress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yazhou.AddShippingAddress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62AB9EFC2653F138005E669F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AddShippingAddress/Preview Content\"";
+				DEVELOPMENT_TEAM = 394S94H2LS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AddShippingAddress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yazhou.AddShippingAddress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		62AB9EFE2653F138005E669F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 394S94H2LS;
+				INFOPLIST_FILE = AddShippingAddressTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yazhou.AddShippingAddressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddShippingAddress.app/AddShippingAddress";
+			};
+			name = Debug;
+		};
+		62AB9EFF2653F138005E669F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 394S94H2LS;
+				INFOPLIST_FILE = AddShippingAddressTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yazhou.AddShippingAddressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddShippingAddress.app/AddShippingAddress";
+			};
+			name = Release;
+		};
+		62AB9F012653F138005E669F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 394S94H2LS;
+				INFOPLIST_FILE = AddShippingAddressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yazhou.AddShippingAddressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AddShippingAddress;
+			};
+			name = Debug;
+		};
+		62AB9F022653F138005E669F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 394S94H2LS;
+				INFOPLIST_FILE = AddShippingAddressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yazhou.AddShippingAddressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AddShippingAddress;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62AB9ED02653F136005E669F /* Build configuration list for PBXProject "AddShippingAddress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62AB9EF82653F138005E669F /* Debug */,
+				62AB9EF92653F138005E669F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62AB9EFA2653F138005E669F /* Build configuration list for PBXNativeTarget "AddShippingAddress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62AB9EFB2653F138005E669F /* Debug */,
+				62AB9EFC2653F138005E669F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62AB9EFD2653F138005E669F /* Build configuration list for PBXNativeTarget "AddShippingAddressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62AB9EFE2653F138005E669F /* Debug */,
+				62AB9EFF2653F138005E669F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62AB9F002653F138005E669F /* Build configuration list for PBXNativeTarget "AddShippingAddressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62AB9F012653F138005E669F /* Debug */,
+				62AB9F022653F138005E669F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62AB9ECD2653F136005E669F /* Project object */;
+}
